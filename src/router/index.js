@@ -86,6 +86,13 @@ const routes = [
       },
     ],
   },
+
+  {
+    path: "/filter",
+    name: "mapFilter",
+    component: () => import("@/components/map/mapFilters"),
+  },
+
 ];
 
 const router = new VueRouter({

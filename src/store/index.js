@@ -15,6 +15,7 @@ export default new Vuex.Store({
       // { title: '할 일1', completed: false },
       // { title: '할 일2', completed: false },
     ],
+    latlng :[],
   },
   getters: {
     allTodosCount(state) {
@@ -29,6 +30,10 @@ export default new Vuex.Store({
       return state.todos.filter((todo) => {
         return todo.completed === false;
       }).length;
+    },
+
+    allLatLng(state){
+      return state.latlan;
     },
   },
   mutations: {
@@ -60,6 +65,16 @@ export default new Vuex.Store({
       // console.log("Mutations", house);
       state.house = house;
     },
+
+    GET_LAT_LNG(state){ 
+
+      state.latlng = [];
+      state.houses.forEach(function(item){
+        state.latlng.push([item.lat,item.lng]);
+      })
+
+      },
+
     /////////////////////////////// House end /////////////////////////////////////
 
     //////////////////////////// Todo List start //////////////////////////////////
@@ -114,25 +129,22 @@ export default new Vuex.Store({
           console.log(error);
         });
     },
+
     getHouseList({ commit }, gugunCode) {
-      // vue cli enviroment variables 검색
-      //.env.local file 생성.
-      // 반드시 VUE_APP으로 시작해야 한다.
-      const SERVICE_KEY = process.env.VUE_APP_APT_DEAL_API_KEY;
-      // const SERVICE_KEY =
-      //   "######################## Service Key ########################";
-      const SERVICE_URL =
-        "http://openapi.molit.go.kr/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTradeDev";
-      const params = {
-        LAWD_CD: gugunCode,
-        DEAL_YMD: "202207",
-        serviceKey: decodeURIComponent(SERVICE_KEY),
-      };
+
+      // const params = {
+      //   dongcode: gugunCode,
+      //   year_month: "202207",
+      // };
+
+      const params = { dongcode : gugunCode};
+
       http
-        .get(SERVICE_URL, { params })
+        .get(`/map/aptlist/${gugunCode}`)
         .then(({ data }) => {
-          // console.log(commit, data);
-          commit("SET_HOUSE_LIST", data.response.body.items.item);
+          // alert(data);
+          console.log(commit, data);
+          commit("SET_HOUSE_LIST", data);
         })
         .catch((error) => {
           console.log(error);
@@ -163,6 +175,9 @@ export default new Vuex.Store({
     updateTodoStatus({ commit }, todoItem) {
       commit("UPDATE_TODO_STATUS", todoItem);
     },
+    getLatLng({commit}){
+      commit("GET_LAT_LNG");
+    }
     //////////////////////////// Todo List end //////////////////////////////////
   },
   modules: {},

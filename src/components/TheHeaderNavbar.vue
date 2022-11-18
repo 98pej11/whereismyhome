@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="dark">
+    <b-navbar toggleable="lg" type="dark">
       <b-navbar-brand href="#">
         <router-link :to="{ name: 'main' }">
           <b-img
@@ -19,15 +19,15 @@
           <b-nav-item href="#">
             <router-link :to="{ name: 'main' }" class="link">
               <b-icon icon="house-door" animation="fade" font-scale="2"></b-icon>
-              메인
+              Main
             </router-link>
             <router-link :to="{ name: 'board' }" class="m-2 link">
               <b-icon icon="journal" animation="fade" font-scale="2"></b-icon>
-              공지사항
+              Announcement
             </router-link>
             <router-link :to="{ name: 'house' }" class="m-2 link">
               <b-icon icon="house-fill" animation="fade" font-scale="2"></b-icon>
-              아파트정보
+              Apart Info
             </router-link>
           </b-nav-item>
         </b-navbar-nav>
@@ -71,10 +71,10 @@ export default {
   text-decoration: none;
 }
 
-.navbar.navbar-dark.bg-dark{
+/* .navbar.navbar-dark.bg-dark{
     background-color: #BDD0E7!important;
- }
- .navbar.navbar-dark.type-dark{
-    background-: #BDD0E7!important;
- }
+ } */
+ /* .navbar.navbar-dark.type-dark{
+    background-color: #BDD0E7!important;
+ } */
 </style>

@@ -1,38 +1,45 @@
 <template>
   <div>
-    <div id="map"></div>
-    <div class="button-group">
-      <button @click="changeSize(0)">Hide</button>
-      <button @click="changeSize(400)">show</button>
-      <button @click="displayMarker(markerPositions1)">marker set 1</button>
-      <button @click="displayMarker(markerPositions2)">marker set 2</button>
-      <button @click="displayMarker([])">marker set 3 (empty)</button>
-      <button @click="displayInfoWindow">infowindow</button>
+    <div id="map">
+        <div class="filter-left">
+            <button @click="showFilters">하이</button>
+            <Transition>
+            <div class="inner-filter" v-if="showfilter">
+              <!-- <map-filters></map-filters> -->
+              <house-search-bar></house-search-bar>
+              <button @click="displayMarker">marker set 1</button>
+            </div>
+            </Transition>
+        </div>
+        <div class="filter-right" v-if="detailShow">
+            <!-- <house-list></house-list> -->
+            <HouseDetail></HouseDetail>
+        </div>
     </div>
   </div>
 </template>
 
 <script>
+// import mapFilters from '@/components/map/mapFilters.vue';
+import HouseSearchBar from '@/components/house/HouseSearchBar.vue';
+import HouseList from '@/components/house/HouseList.vue';
+import { mapState,mapActions } from "vuex";
+import HouseDetail from '@/components/house/HouseDetail.vue';
 export default {
+  components: {
+    // mapFilters,
+    HouseSearchBar,
+    HouseList,
+    HouseDetail
+},
   name: "KakaoMap",
+
   data() {
     return {
-      markerPositions1: [
-        [33.452278, 126.567803],
-        [33.452671, 126.574792],
-        [33.451744, 126.572441],
-      ],
-      markerPositions2: [
-        [37.499590490909185, 127.0263723554437],
-        [37.499427948430814, 127.02794423197847],
-        [37.498553760499505, 127.02882598822454],
-        [37.497625593121384, 127.02935713582038],
-        [37.49629291770947, 127.02587362608637],
-        [37.49754540521486, 127.02546694890695],
-        [37.49646391248451, 127.02675574250912],
-      ],
-      markers: [],
+    showfilter:false,
+      overlays: [],
       infowindow: null,
+      detailShow: false,
     };
   },
   mounted() {
@@ -47,7 +54,26 @@ export default {
       document.head.appendChild(script);
     }
   },
+
+  computed: {
+    ...mapState(["latlng","houses"]),
+  },
+
+  // watch: {
+  //   latlng: this.displayMarker(latlng),
+  // },
+
   methods: {
+    
+    ...mapActions(["getLatLng","detailHouse"]),
+    showFilters(){
+        if (this.showfilter == true){
+            this.showfilter = false;
+        }
+        else{
+            this.showfilter = true;
+        }
+    },
     initMap() {
       const container = document.getElementById("map");
       const options = {
@@ -59,57 +85,54 @@ export default {
       //지도 객체는 반응형 관리 대상이 아니므로 initMap에서 선언합니다.
       this.map = new kakao.maps.Map(container, options);
     },
-    changeSize(size) {
-      const container = document.getElementById("map");
-      container.style.width = `${size}px`;
-      container.style.height = `${size}px`;
-      this.map.relayout();
-    },
-    displayMarker(markerPositions) {
-      if (this.markers.length > 0) {
-        this.markers.forEach((marker) => marker.setMap(null));
+    displayMarker() {
+      this.getLatLng();
+      alert("display");
+      let markerPositions = this.latlng;
+      if (this.overlays.length > 0) {
+        for (let i = 0; i < this.overlays.length; i++) {
+          this.overlays[i].setMap(null);
+        }
+        this.overlays = [];
       }
+
 
       const positions = markerPositions.map(
         (position) => new kakao.maps.LatLng(...position)
       );
 
+      
+      var bounds = new kakao.maps.LatLngBounds();
       if (positions.length > 0) {
-        this.markers = positions.map(
-          (position) =>
-            new kakao.maps.Marker({
-              map: this.map,
-              position,
-            })
-        );
+        for (let i = 0; i < positions.length; i++) {
 
-        const bounds = positions.reduce(
-          (bounds, latlng) => bounds.extend(latlng),
-          new kakao.maps.LatLngBounds()
-        );
+          var content = document.createElement("div");
+          content.style="background-color: white;";
+          var info = document.createElement("span");
+          info.id = i;
+          info.appendChild(document.createTextNode(this.houses[i].recentPrice));
+          content.appendChild(info);
+          info.addEventListener("click",(e) =>{
+            console.log(e.target);
+            console.log(e.target.id);
+            this.detailHouse(this.houses[e.target.id]);
+            this.detailShow = true;
+          });
+          
 
-        this.map.setBounds(bounds);
+          var overlay = new kakao.maps.CustomOverlay({
+          position: positions[i],
+          content: content
+          });
+          overlay.setMap(this.map);
+          this.overlays.push(overlay);
+
+          bounds.extend(positions[i]);
+           } 
+
+
       }
-    },
-    displayInfoWindow() {
-      if (this.infowindow && this.infowindow.getMap()) {
-        //이미 생성한 인포윈도우가 있기 때문에 지도 중심좌표를 인포윈도우 좌표로 이동시킨다.
-        this.map.setCenter(this.infowindow.getPosition());
-        return;
-      }
-
-      var iwContent = '<div style="padding:5px;">Hello World!</div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
-        iwPosition = new kakao.maps.LatLng(33.450701, 126.570667), //인포윈도우 표시 위치입니다
-        iwRemoveable = true; // removeable 속성을 ture 로 설정하면 인포윈도우를 닫을 수 있는 x버튼이 표시됩니다
-
-      this.infowindow = new kakao.maps.InfoWindow({
-        map: this.map, // 인포윈도우가 표시될 지도
-        position: iwPosition,
-        content: iwContent,
-        removable: iwRemoveable,
-      });
-
-      this.map.setCenter(iwPosition);
+      this.map.setBounds(bounds);
     },
   },
 };
@@ -118,9 +141,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #map {
-  width: 100vw;
-  height: 100vw;
-  margin-left: calc(-50vw + 50%);
+  width: 95vw;
+  height: 70vw;
+  margin-left: calc(-48vw + 50%);
 }
 
 .button-group {
@@ -130,4 +153,24 @@ export default {
 button {
   margin: 0 3px;
 }
+
+.filter-left{
+    position:absolute;
+    left:100px;
+    top:100px;
+  padding:5px;
+  width: 200px;
+  z-index:10;
+}
+
+.filter-right{    
+    position:absolute;
+    left : 80vw;
+    top : 0px;
+  padding:5px;
+  z-index:10;
+  height: 100vw;
+}
+
+
 </style>
