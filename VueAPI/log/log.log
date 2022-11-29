@@ -1,0 +1,323 @@
+[2m2022-11-25 04:36:17.454[0;39m [33m WARN[0;39m [35m30220[0;39m [2m---[0;39m [2m[l-6 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=6h30s455ms779µs300ns).
+[2m2022-11-25 05:25:00.705[0;39m [33m WARN[0;39m [35m30220[0;39m [2m---[0;39m [2m[l-6 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=48m46s605ms166µs400ns).
+[2m2022-11-25 05:57:17.993[0;39m [33m WARN[0;39m [35m30220[0;39m [2m---[0;39m [2m[l-6 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=16m47s53ms977µs100ns).
+[2m2022-11-25 08:13:30.568[0;39m [33m WARN[0;39m [35m30220[0;39m [2m---[0;39m [2m[l-6 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=2h12m42s510ms559µs300ns).
+[2m2022-11-25 08:15:37.174[0;39m [32m INFO[0;39m [35m30220[0;39m [2m---[0;39m [2m[on(2)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-25 08:36:32.517[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2022-11-25 08:36:32.519[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2022-11-25 08:36:33.213[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-25 08:36:33.252[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 732 ms
+[2m2022-11-25 08:36:33.632[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-11-25 08:36:33.739[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-25 08:36:50.556[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-25 08:36:50.558[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-11-25 08:36:50.602[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 08:36:50.618[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 08:39:19.816[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 08:39:32.829[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
+[2m2022-11-25 08:39:32.843[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 08:39:42.309[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 08:39:45.839[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m gugun - 호출
+[2m2022-11-25 08:39:50.007[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist2 - 호출
+[2m2022-11-25 08:40:29.264[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzMzMjI5MjQ1LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzMzM4MjksInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6ImFkbWluIn0.5C6zEkRMjpcECEraejKJ83AkO6xNHsNBergohtq4A0Y
+[2m2022-11-25 08:40:29.266[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzMzMjI5MjU4LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzNDUyMjksInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJhZG1pbiJ9.icSruElYn9agZV6t05TuCX5BiukOXJmE7a1-xL99bK8
+[2m2022-11-25 08:40:29.286[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 08:40:29.302[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 08:40:29.302[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 08:48:12.266[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 08:48:12.267[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 08:48:41.735[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 08:49:03.088[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
+[2m2022-11-25 08:49:03.103[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 08:49:21.721[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 08:49:24.663[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m gugun - 호출
+[2m2022-11-25 08:49:28.549[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist2 - 호출
+[2m2022-11-25 09:22:40.939[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:22:40.940[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:22:48.173[0;39m [33m WARN[0;39m [35m37380[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m26s298ms407µs900ns).
+[2m2022-11-25 09:23:13.050[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:23:13.051[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
+[2m2022-11-25 09:23:13.090[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:23:16.540[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:23:16.540[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:23:42.929[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:23:58.387[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
+[2m2022-11-25 09:23:58.408[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:24:08.220[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 3
+[2m2022-11-25 09:24:08.234[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:24:12.198[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
+[2m2022-11-25 09:24:12.219[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:24:42.803[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
+[2m2022-11-25 09:24:42.827[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:24:43.533[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 3
+[2m2022-11-25 09:24:43.558[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:24:58.790[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM1ODk4Nzc4LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzMzY0OTgsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6ImFkbWluIn0.fgkQ5M4FvxA5uHGcLZ8SLGp2CIo5XIqpbjxS0Yc_IIM
+[2m2022-11-25 09:24:58.790[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM1ODk4Nzc4LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzNDc4OTgsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJhZG1pbiJ9.gSTb1-5Yy2Ak7rEc9IwdwLgbW5Y2sMNUG97jFZLEy5U
+[2m2022-11-25 09:24:58.815[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 09:24:58.858[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:24:58.858[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:25:00.144[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:25:03.493[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:25:03.494[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:25:24.136[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:25:24.143[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:25:27.929[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM1OTI3OTI5LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzMzY1MjcsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.K3UiUsD3BiUVD3eAcY1T2lwGpVwA-X78wpHj2jyuq1Y
+[2m2022-11-25 09:25:27.937[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM1OTI3OTI5LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzNDc5MjcsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.00NRK_kSv5yJ3uuuRBTVKsewvi1XpFYICzjBpNcm-vQ
+[2m2022-11-25 09:25:27.945[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 09:25:27.967[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:25:27.968[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:25:30.975[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:25:33.233[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
+[2m2022-11-25 09:25:33.249[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:25:52.375[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 업데이트 요청 : MemberDto [userid=ssafywww, username=이명규ddwdw, userpwd=ssafy, email=si4444@naver.com, joindate=2022-11-25 09:25:24]
+[2m2022-11-25 09:25:52.379[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 09:25:53.286[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:25:53.286[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:25:57.761[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:25:58.715[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
+[2m2022-11-25 09:25:58.732[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:26:05.083[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:26:05.090[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:26:15.770[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM1OTc1NzYxLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzMzY1NzUsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6ImFkbWluIn0.kBKlPvr-dtRCD1E0vDEVI7FPQoPYNDP1kd6PEjKxEXY
+[2m2022-11-25 09:26:15.770[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM1OTc1NzYxLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzNDc5NzUsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJhZG1pbiJ9.AXgeLY7i-wdjC_3vVgzynWd468AK2OTQ6-Dvg2bmyL0
+[2m2022-11-25 09:26:15.785[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 09:26:15.818[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:26:15.818[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:26:19.222[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:26:20.253[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
+[2m2022-11-25 09:26:20.271[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:26:43.041[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m updatememo - 호출
+[2m2022-11-25 09:26:43.964[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:26:47.266[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 09:26:54.761[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m MultipartFile.isEmpty : false
+[2m2022-11-25 09:26:54.761[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m 저장 폴더 : C:\vueproject\gwantong\src\assets\221122
+[2m2022-11-25 09:26:54.761[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m 원본 파일 이름 : 1.png, 실제 저장 파일 이름 : 749046797675000.png
+[2m2022-11-25 09:26:54.786[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:26:55.940[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
+[2m2022-11-25 09:26:55.956[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 09:27:00.747[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 09:27:03.168[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m gugun - 호출
+[2m2022-11-25 09:27:12.967[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist2 - 호출
+[2m2022-11-25 09:28:11.698[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:28:11.698[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:28:15.831[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 09:28:17.981[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:28:17.981[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:28:33.655[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:28:37.735[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:28:37.738[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:28:40.584[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 09:28:45.291[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:28:45.291[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:28:47.277[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 09:28:51.595[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:28:51.595[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:29:02.396[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 09:29:04.574[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:29:04.820[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:29:04.820[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:35:39.393[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:35:39.393[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:35:58.100[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:35:58.709[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 09:35:58.709[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:35:59.379[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 09:36:00.376[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 09:44:47.278[0;39m [33m WARN[0;39m [35m37380[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m28s818ms906µs700ns).
+[2m2022-11-25 10:06:15.344[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM4Mzc1MzM2LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzMzg5NzUsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6ImFkbWluIn0.uBD97NWKhLNjyAzN3GpLejxqRFdQxDTIpkeB5rw9ub8
+[2m2022-11-25 10:06:15.344[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM4Mzc1MzM2LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzNTAzNzUsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJhZG1pbiJ9.ml-Fpi8Cz-CNluAjF0coCs3PNfcEfLWcOYnpKklMwvM
+[2m2022-11-25 10:06:15.347[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 10:06:15.364[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:06:15.370[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:06:16.334[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:06:18.449[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 10:06:25.358[0;39m [31mERROR[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.] with root cause
+
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:97)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:288)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2921)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2823)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:1098)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:95)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1205)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+[2m2022-11-25 10:06:27.479[0;39m [31mERROR[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.] with root cause
+
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:97)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:288)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2921)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2823)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:1098)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:95)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1205)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+[2m2022-11-25 10:06:29.502[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:06:34.210[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:06:34.210[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:08:12.794[0;39m [33m WARN[0;39m [35m37380[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s157ms651µs600ns).
+[2m2022-11-25 10:11:53.810[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:11:53.812[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
+[2m2022-11-25 10:11:53.842[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 10:12:02.125[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:12:02.126[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:12:04.389[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:12:16.165[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
+[2m2022-11-25 10:12:16.181[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 10:13:06.927[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:13:06.927[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:13:16.360[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM4Nzk2MzUyLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzMzkzOTYsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5MSJ9.IqoOeR0QT0P4vtEwUjDNdoBqGEq-xZAYTFeLx1ZoTGQ
+[2m2022-11-25 10:13:16.360[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM4Nzk2MzUyLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzNTA3OTYsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeTEifQ.NrEAeM4wMNduJlipRg-R4mvUh1sZtbX3TNl4JBKKyeQ
+[2m2022-11-25 10:13:16.368[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 10:13:16.384[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:13:16.384[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:13:38.494[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:13:40.966[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 10:13:54.020[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m MultipartFile.isEmpty : false
+[2m2022-11-25 10:13:54.020[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m 저장 폴더 : C:\vueproject\gwantong\src\assets\221122
+[2m2022-11-25 10:13:54.020[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m 원본 파일 이름 : 화면6.png, 실제 저장 파일 이름 : 751866060531100.png
+[2m2022-11-25 10:13:54.047[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:13:55.433[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 14
+[2m2022-11-25 10:13:55.448[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 10:14:33.003[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:14:33.009[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:14:45.804[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM4ODg1Nzk1LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzMzk0ODUsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6ImFkbWluIn0.FXQY48_oHz1dsz1gzRg9IINJi35ofsKO14b0kK9YynQ
+[2m2022-11-25 10:14:45.804[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM4ODg1Nzk1LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzNTA4ODUsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJhZG1pbiJ9.010HVQZj5GyeSD-N7yXGpQ8kHKEJrmp5r6PrltmbmEQ
+[2m2022-11-25 10:14:45.821[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 10:14:45.853[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:14:45.853[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:14:47.141[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:14:48.172[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 14
+[2m2022-11-25 10:14:48.182[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 10:15:06.674[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m updatememo - 호출
+[2m2022-11-25 10:15:08.841[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 10:15:14.379[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:15:14.379[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:15:25.383[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM4OTI1Mzc0LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzMzk1MjUsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5MSJ9.wfDkmMTq_a8JzdtLkpyLEu090TuY1CZ9ya1HPk8LeLI
+[2m2022-11-25 10:15:25.383[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY5MzM4OTI1Mzc0LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjkzNTA5MjUsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeTEifQ.wrz_-IMFgzxXuyK6pS_wQwuqhX0x8fXlD-NBx_aUn6I
+[2m2022-11-25 10:15:25.386[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 10:15:25.404[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:15:25.404[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:15:26.266[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:15:27.134[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 14
+[2m2022-11-25 10:15:27.148[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 10:15:30.717[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 10:15:31.063[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 14
+[2m2022-11-25 10:15:32.777[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출
+[2m2022-11-25 10:15:33.665[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:15:34.801[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 14
+[2m2022-11-25 10:15:34.817[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 10:15:47.283[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:15:48.209[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 14
+[2m2022-11-25 10:15:48.220[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 10:15:50.858[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 10:15:52.707[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:15:52.707[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:16:15.224[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 10:16:20.316[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m gugun - 호출
+[2m2022-11-25 10:16:27.017[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist2 - 호출
+[2m2022-11-25 10:16:59.001[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist2 - 호출
+[2m2022-11-25 10:17:40.576[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:17:40.576[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:17:44.738[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:17:46.436[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 14
+[2m2022-11-25 10:17:46.451[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.MemoController [0;39m [2m:[0;39m getMemoList - 호출
+[2m2022-11-25 10:17:51.031[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 10:18:22.932[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:18:30.417[0;39m [32mDEBUG[0;39m [35m37380[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 업데이트 요청 : MemberDto [userid=ssafy1, username=이명규33333, userpwd=ssafy1, email=si44440@naver.com, joindate=2022-11-25 10:13:06]
+[2m2022-11-25 10:18:30.435[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-11-25 10:18:31.425[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:18:31.428[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:18:37.143[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteAllByUserArticle - 호출
+[2m2022-11-25 10:18:37.899[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:18:37.899[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:24:15.439[0;39m [33m WARN[0;39m [35m37380[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m32s502ms135µs).
+[2m2022-11-25 10:26:53.354[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:26:53.354[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:26:56.372[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:26:58.410[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist3 - 호출
+[2m2022-11-25 10:26:58.410[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-25 10:26:59.891[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido - 호출
+[2m2022-11-25 10:27:06.861[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m gugun - 호출
+[2m2022-11-25 10:27:14.570[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist2 - 호출
+[2m2022-11-25 10:28:34.744[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m aptlist2 - 호출
+[2m2022-11-25 10:54:43.063[0;39m [33m WARN[0;39m [35m37380[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s984ms910µs).
+[2m2022-11-25 11:09:07.326[0;39m [33m WARN[0;39m [35m37380[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m24s263ms131µs500ns).
+[2m2022-11-25 11:09:16.983[0;39m [32m INFO[0;39m [35m37380[0;39m [2m---[0;39m [2m[on(2)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.

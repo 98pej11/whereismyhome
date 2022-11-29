@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.ssafy.vue.model.mapper.MemoMapper">
+
+	<select id="getMemoList" parameterType="int" resultType="MemoDto">
+		select comment, memono, userid, memotime, articleNo
+		from memo
+		where articleno = #{articleNo};
+	</select>
+	
+	<insert id="addMemo" parameterType="memoDto">
+		insert into memo (userid, comment, articleno) 
+		values(#{userId},#{comment},#{articleNo});
+	</insert>
+	
+	<delete id="removeMemo" parameterType="int">
+		delete from memo where memono = #{memono}
+	</delete>
+	
+	<update id="updateMemo" parameterType="memoDto">
+		update memo
+		set comment = #{comment}, memotime = #{memoTime}
+		where memono = #{memono}
+	</update>	
+
+	
+	<delete id="removeAllMemo" parameterType="int">
+		delete from memo
+		where articleno = #{articleno}
+	</delete>
+
+
+</mapper>
+
