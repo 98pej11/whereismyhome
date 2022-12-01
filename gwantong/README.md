@@ -13,6 +13,9 @@
 
 각 파트에 대한 설명은 파트명으로 분리되어있는 readme에 상세히 작성되어있다.
 
+# SPRING BOOTS
+스프링을 이용한 backend api에 관한 내용도 README_CONTROLLER.md 에 기술되어있다.
+
 
 # 개선점
 현재 프로젝트엔 3가지 개선점이 있다.
