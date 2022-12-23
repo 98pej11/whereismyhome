@@ -106,7 +106,7 @@ export default {
     },
     deleteArticle() {
       if (confirm("정말로 삭제?")) {
-        this.deleteAllComment(this.article2.articleno);
+        this.deleteAllComment(this.article.articleno);
         this.$router.replace({
           name: "boarddelete",
           params: { articleno: this.article.articleno },
